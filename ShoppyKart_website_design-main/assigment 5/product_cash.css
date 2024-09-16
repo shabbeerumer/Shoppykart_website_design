@@ -1,0 +1,117 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand span {
+  color: #ef233c;
+}
+
+.nav-item {
+  color: #ef233c !important;
+  position: relative;
+  text-decoration: none;
+}
+
+.dropdown-item {
+  position: relative;
+}
+
+.dropdown-item::after {
+  left: 0%;
+  top: 100%;
+  content: "";
+  position: absolute;
+  height: 10%;
+  width: 0%;
+  background-color: #ef233c;
+}
+
+.dropdown-item:hover::after {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.nav-item::after {
+  right: 0%;
+  left: 7%;
+  padding: 0%;
+  content: "";
+  height: 5%;
+  width: 0%;
+  top: 100%;
+  color: transparent;
+  background-color: #ef233c;
+  position: absolute;
+}
+
+.nav-item:hover::after {
+  width: 80%;
+  transition: 0.5s;
+}
+
+.bg_image-1 {
+  background-image: url(images/banner3.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-2-inside-text a {
+  text-decoration: none;
+  color: #ef233c;
+  border-radius: 5px;
+}
+
+.bg-image-2-inside-text {
+  text-align: start;
+}
+
+/* footer css code here */
+ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0% !important;
+}
+
+li a {
+  text-decoration: none;
+  color: #888;
+}
+
+li {
+  color: #888;
+  margin-bottom: 2%;
+  padding: 0%;
+}
+
+.payment_cards li {
+  display: inline-block;
+  font-size: xx-large;
+}
+
+.last p {
+  color: #888;
+}
+
+.last a {
+  text-decoration: none;
+  color: white;
+}
+
+.last_buttons a {
+  padding: 2%;
+  /* padding-left: 3%;
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-bottom: 1%; */
+  margin-left: 3%;
+  margin-bottom: 3%;
+  background-color: #ef233c;
+  text-decoration: none;
+}
+
+.last_buttons {
+  text-align: center;
+}
+/* end footer css code */

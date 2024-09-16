@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="product-cart.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span>
+                    SHOPPY
+                </span>
+                KART</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+
+                        <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="products.html">Products</a></li>
+                            <li><a class="dropdown-item" href="product-single.html">Products Single</a></li>
+                            <li><a class="dropdown-item" href="product-cart.html">Cart Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="blog-page.html">Blog Page</a></li>
+                            <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                            <li><a class="dropdown-item" href="error.html">Error Page</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FaQ</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+
+                </ul>
+                <a href="" style="color: black;">
+                    <i class="fa-solid fa-magnifying-glass ms-1"></i>
+                </a>
+
+
+
+
+            </div>
+            <div class="a" style="justify-content: end;">
+                <button type="button" class="btn btn-danger me-2">
+                    <i class="fa-solid fa-user"></i>
+                    Login</button>
+
+                <button type="button" class="btn btn-danger me-2">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Cart</button>
+                <i class="fa-regular fa-moon" style="font-size: x-large;"></i>
+            </div>
+
+
+
+
+
+        </div>
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bg_image-1">
+                      <div class="row text-center p-5">
+                        <div class="col-lg-10 pt-3 pb-0 ">
+                            <div class="bg-image-1-inside-text text-light text-start">
+                                <h2>Products
+                                </h2>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-2 pt-3 pb-5   ">
+                            <div class="bg-image-2-inside-text  text-lg-end text-light" >
+                                <p>
+                                    <span >
+                                        <a href="index.html">Home</a></span>
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    Products
+
+                                </p>
+                              
+                                
+                            </div>
+                            
+                        </div>
+    
+                       
+                        
+                      </div>
+                   
+                </div>
+            </div>
+           
+        </div>
+       </div>
+
+
+
+
+<div class="container-fluid">
+    <div class="my-table">
+        <h3>Checkout</h3>
+        <p>Your shopping cart contains: 3 Products </p>
+        <div class="table-responsive">
+            <table class="table table-bordered ">
+                <thead>
+                  <tr>
+                    <th scope="col" class="text-center bg-dark text-light">SL No.	</th>
+                    <th scope="col" class="text-center bg-dark text-light">Product</th>
+                    <th scope="col" class="text-center bg-dark text-light">Quality</th>
+                    <th scope="col" class="text-center bg-dark text-light">Product Name</th>
+                    <th scope="col" class="text-center bg-dark text-light">Price</th>
+                    <th scope="col" class="text-center bg-dark text-light">Remove
+                    </th>
+    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-center">1</th>
+                    <td class="text-center">
+                        <a href="product-single.html"><img src="images/shop-1.jpg" alt="" height="5%" width="20%"></a>
+                    </td>
+                    <td class="text-center">
+                        <div class="selector " >
+                            <div class="minus " style="display: inline; ">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-minus text-center"></i>
+                                </button>
+    
+                                
+                            </div>
+                            <div class="count"style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    1
+                                </button>
+                            </div>
+                            <div class="plus  "style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-plus text-center"></i>
+                                </button>
+                                </div>
+    
+                        </div>
+                    </td>
+                    <td class="text-center">Checkered Casual Shirt	</td>
+                    <td class="text-center">$899.00	 </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-center">2</th>
+                    <td class="text-center">
+                       <a href="product-single.html"> <img src="images/shop-2.jpg" alt=""  width="20%"></a>
+                    </td>
+                    <td class="text-center">
+                        <div class="selector " >
+                            <div class="minus " style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-minus text-center"></i>
+                                </button>
+    
+                                
+                            </div>
+                            <div class="count"style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    1
+                                </button>
+                            </div>
+                            <div class="plus  "style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-plus text-center"></i>
+                                </button>
+                                </div>
+    
+                        </div>
+                     
+                        </td>
+                        </div>
+                        
+                        
+                    <td class="text-center">Cotton Flared Kurta	</td>
+                    <td class="text-center">$599.00	</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-center">3</th>
+                    <td class="text-center">
+                       <a href="product-single.html"> <img src="images/shop-3.jpg" alt=""  width="20%"></a></td>
+                    <td class="text-center">
+                        <div class="selector " >
+                            <div class="minus " style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-minus text-center"></i>
+                                </button>
+    
+                                
+                            </div>
+                            <div class="count"style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    1
+                                </button>
+                            </div>
+                            <div class="plus  "style="display: inline;">
+                                <button type="button" class="btn btn-light">
+                                    <i class="fa-solid fa-plus text-center"></i>
+                                </button>
+                                </div>
+    
+                        </div>
+                    </td>
+                    <td class="text-center">Cotton Flared Kurta	</td>
+                    <td class="text-center">$599.00	</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+       
+       </div>
+
+       <div class="conteiner">
+        <div class="row">
+            <div class="col-md-4">
+                <button type="button" class="btn btn-danger w-100">Continue to basket</button>
+                    <div class="d-flex flex-row mb-3  justify-content-between">
+                        <div class="p-2">Product1- </div>
+                        <div class="p-2">$599.00 </div>
+                      </div>
+                      <div class="d-flex flex-row mb-3  justify-content-between">
+                        <div class="p-2">Product2- </div>
+                        <div class="p-2">$899.00  </div>
+                        
+                      </div>
+                      <div class="d-flex flex-row mb-3  justify-content-between">
+                        <div class="p-2">Product3- </div>
+                        <div class="p-2">$799.00 </div>
+                        
+                      </div>
+                      <div class="d-flex flex-row mb-3  justify-content-between">
+                        <div class="p-2">Total Service Charges  </div>
+                        <div class="p-2">$10.00 </div>   
+                      </div>
+                      <hr>
+                      <div class="d-flex flex-row mb-3  justify-content-between">
+                        <div class="p-2"> <h6>Total  </h6></div>
+                        <div class="p-2"> <h6>$2297.00 </h6></div>   
+                      </div>
+                      <hr>
+
+                      
+                  
+                 
+               
+
+            </div>
+            <div class="col-md-8">
+                <h3>Add a new Details
+                </h3>
+                <form action="">
+                    <input type="text" class="w-100 p-2 border-0 " placeholder="Full name" style="background-color: #f7f6f6;">
+                </form>
+                <br>
+                <form action="">
+                    <input type="text"class="w-100 p-2 border-0" placeholder="Mobile number" style="background-color: #f7f6f6;">
+                    
+                </form>
+                <br>
+                <form action="">
+                    <input type="text"class="w-100 p-2 border-0" placeholder="Landmark" style="background-color: #f7f6f6;">
+                    
+                </form>
+                <br>
+                <form action="">
+                    <input type="text"class="w-100 p-2 border-0"placeholder="Town/City" style="background-color: #f7f6f6;">
+                    
+                </form>
+                <br>
+                <form action="">
+                    <input type="text"class="w-100 p-2 border-0" placeholder="Office" style="background-color: #f7f6f6;">
+                </form>
+                <br>
+                <button type="button" class="btn btn-danger">Delivery To This Address</button>
+
+                <div class="d-flex flex-row mb-3 justify-content-end">
+                    <div class="p-2">
+                        <button type="button" class="btn btn-danger">
+                           <a href="product_cash.html" class="text-decoration-none text-white"> Make A Payment </a>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+                    
+                  </div>
+            </div>
+        </div>
+       </div>
+
+         <!-- footer html code here -->
+   <div class="container-fluid" style="background-color: #060500;">
+    <div class="row p-2" style="color: white;">
+        <h2>Special Offer All Branded Sandals are <br> Flat 50% Discount</h2>
+        <div class="col-md-3">
+            <h6>USeful Links</h6>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Blogs</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Support</a>
+                </li>
+                <li>
+                    <a href="">News & Media</a>
+                </li>
+                <li>
+                    <a href="">Careers</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h6>Information</h6>
+            <ul>
+                <li>
+                    <a href="">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="">Delivery Terms</a>
+                </li>
+                <li>
+                    <a href="">Order Tracking</a>
+                </li>
+                <li>
+                    <a href="">Returns Policy</a>
+                </li>
+                <li>
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="">FAQ</a>
+                </li>
+                <li>
+                    <a href="">The Shop</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h6>Address</h6>
+            <ul>
+                <li>
+                    London, UK
+                </li>
+                <li>
+                    998 13h Street, Office 436 </li>
+                <li>
+                    Harlo 61466 </li>
+                <li>
+                    <a href="">+(21) 255 999 8888</a>
+                </li>
+                <li>
+                    <a href="">ShoppyKart@mail.com</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h6>Payment Method</h6>
+            <div class="payment_cards">
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-visa" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-discover" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-paypal" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-mastercard" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-stripe" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-amex" style="color: white;"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-cc-jcb" style="color: white;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="last">
+                <p>© 2021 ShoppyKart. All rights reserved | Designed by
+                    <a href=""> W3layouts</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="last_buttons mb-2">
+                <a href="">
+                    <i class="fa-brands fa-facebook" style="color: white;"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-twitter" style="color: white;"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram" style="color: white;"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-linkedin" style="color: white;"></i>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end footer html code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
