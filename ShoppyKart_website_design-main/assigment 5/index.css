@@ -391,3 +391,6 @@ li {
   background-color: transparent;
   color: white;
 }
+.modal-backdrop {
+  background-color: transparent;
+}
