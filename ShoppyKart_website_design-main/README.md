@@ -44,5 +44,5 @@ _Shopping Cart Page_
 
 For any inquiries or support:
 
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/umer-shabbeer)
+- **LinkedIn**: [My LinkedIn Profile](https://linkedin.com/in/umer-shabbeer)
 - **Email**: shabbeerumer@gmail.com
