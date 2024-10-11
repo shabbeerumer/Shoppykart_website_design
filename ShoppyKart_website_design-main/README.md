@@ -1,4 +1,4 @@
-# **ShopyKart – Full eCommerce Website Design**
+ShopyKart – Full eCommerce Website Design
 
 ### **Overview**
 
@@ -25,18 +25,18 @@ ShopyKart is a fully responsive eCommerce website designed using HTML, CSS, and 
 
 ## **Screenshots**
 
-![Homepage](2024-10-11 223135.png)
+![Homepage](https://github.com/user-attachments/assets/35607de4-41e7-408a-a75e-7ba81a6ab09a)
+
 _ShopyKart Homepage_
 
-![Product Page](path_to_product_page_image)
-_Product Listing and Filtering Page_
+![Product Page](https://github.com/user-attachments/assets/34df9782-f0fb-488e-b54d-22659753fc43)
 
-![Cart Page](path_to_cart_page_image)
+_ShopyKart Product Page
+
+![Cart Page](https://github.com/user-attachments/assets/00c9ddc8-ab79-4c06-8ace-76d54a233ec8)
+
 _Shopping Cart Page_
 
-## **Live Demo**
-
-You can view a live demo of ShopyKart [here](2024-10-11 223420.mp4).
 
 ---
 
